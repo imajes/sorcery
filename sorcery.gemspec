@@ -42,10 +42,10 @@ Gem::Specification.new do |s|
   s.add_development_dependency(%q<mongoid>, ["~> 2.4.4"])
   s.add_development_dependency(%q<timecop>, [">= 0"])
   s.add_development_dependency(%q<awesome_print>, [">= 0"])
-  if VERSION.to_f < 1.9
-    s.add_development_dependency(%q<ruby-debug>, [">= 0"])
-  else
+#  if VERSION.to_f < 1.9
+#    s.add_development_dependency(%q<ruby-debug>, [">= 0"])
+#  else
     s.add_development_dependency(%q<ruby-debug19>, [">= 0"])
-  end
+#  end
 end
 
