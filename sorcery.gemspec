@@ -27,8 +27,8 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency(%q<oauth>, ["~> 0.4.4"])
   s.add_runtime_dependency(%q<oauth2>, ["~> 0.5.1"])
+  s.add_runtime_dependency(%q<bcrypt-ruby>, ["~> 3.0.0"])
 
-  s.add_development_dependency(%q<bcrypt-ruby>, ["~> 3.0.0"])
   s.add_development_dependency(%q<rails>, [">= 3.0.0"])
   s.add_development_dependency(%q<json>, [">= 1.5.1"])
   s.add_development_dependency(%q<rspec>, ["~> 2.5.0"])
